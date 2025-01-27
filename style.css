@@ -59,7 +59,7 @@ margin: 28px 20px;
         content: ' ';
         width: 0%;
         height: 3px;
-        background: wheat;
+        background: aquamarine;
         position: absolute;
         left: 0;
         bottom: -6px;
@@ -98,6 +98,7 @@ margin: 28px 20px;
     #about{
         padding: 10px 0px;
         color:beige;
+        line-height: 1.6;
     }
     .row{
         display: flex;
@@ -129,7 +130,7 @@ margin: 28px 20px;
 
     p{
         font-size: 16px;
-        line-height: 1.6;
+        line-height: 1.7;
     }
 
     .tab-titles{
@@ -169,6 +170,7 @@ margin: 28px 20px;
     }
     .tab-contents{
         display: none;
+        line-height: 1.6;
     }
     .tab-contents.active-tab{
         display: block;
@@ -282,6 +284,16 @@ display: inline-block;
 .work:hover .layer{
     opacity: 0;
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
 
 /*  ------------------Contact------------------ */
 
